@@ -9,4 +9,4 @@ class create_user(BaseModel):
     confirm_password:str
     
 class login_user(BaseModel):
-    pass
+    user_name:str
